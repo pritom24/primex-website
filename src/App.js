@@ -4,8 +4,9 @@ import Hero from "./components/Hero";
 import Who from "./components/Who";
 import Works from "./components/Works";
 import Contact from "./components/Contact";
-import Partners from "./components/Products";
-
+import Products from "./components/Products";
+import Partners from "./components/Partners";
+import Projects from "./components/Projects";
 
 const Container = styled.div`
   height: 100vh;
@@ -22,18 +23,17 @@ const Container = styled.div`
 function App() {
   return (
     <>
-    <Container>
-      <Hero />
-      <Who />
-      <Works />
-   
-      <Partners/>
-     
-      <Contact />
-      
-      
-    </Container> 
-    
+      <Container>
+        <Hero />
+        <Who />
+        <Works />
+
+        <Products />
+       <Partners />
+       <Projects/>
+        <Contact />
+      </Container>
+       
     </>
   );
 }
