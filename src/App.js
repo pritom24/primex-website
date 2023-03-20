@@ -8,6 +8,7 @@ import Products from "./components/Products";
 import Partners from "./components/Partners";
 import Projects from "./components/Projects";
 import Service from "./components/Service";
+import Team from "./components/Team";
 
 const Container = styled.div`
   height: 100vh;
@@ -34,6 +35,7 @@ function App() {
         <Products />
         <Partners />
         <Projects />
+        <Team/>
         <Contact />
       </Container>
     </>

@@ -29,6 +29,35 @@ import mobile from "../assets/mobile.png";
 import backend from "../assets/backend.png";
 import creator from "../assets/creator.png";
 
+import ceo from "../assets/ceo.jpeg"
+import sse from "../assets/sse.jpeg"
+export const testimonials = [
+  {
+    testimonial:
+      "Innovation distinguishes between a leader and a follower.We are not just in the business of selling technology, we are in the business of solving problems and making people's lives easier.",
+    name: "Russell Abdullah Al Mamun",
+    designation: "CEO",
+    company: "Primex Information System",
+    image: ceo,
+  },
+  {
+    testimonial:
+      "Programming is not just about writing code, it's about crafting solutions that are efficient, elegant, and scalable, while constantly learning and adapting to new technologies.",
+    name: "Mizanur Rahman",
+    designation: "Senior Software Engineer",
+    company: "Laravel  PHP  Mysql",
+    image: sse,
+  },
+  {
+    testimonial:
+      "Software engineering is a journey of continuous learning and problem-solving. It's about creating solutions that make a positive impact on people's lives while embracing change and innovation",
+    name: "Pritom Saha",
+    designation: "Software Engineer",
+    company: "Nodejs Reactjs Nextjs Mongodb",
+    image: "https://randomuser.me/api/portraits/men/6.jpg",
+  },
+];
+
 export const services = [
   {
     title: "Web & mobile Application",
@@ -216,4 +245,4 @@ export const projects = [
   },
 ];
 
-export default { technologies, projects, services };
+export default { technologies, projects, services, testimonials };
