@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import Products from "./components/Products";
 import Partners from "./components/Partners";
 import Projects from "./components/Projects";
+import Service from "./components/Service";
 
 const Container = styled.div`
   height: 100vh;
@@ -23,17 +24,18 @@ const Container = styled.div`
 function App() {
   return (
     <>
-      <Container>
+      
+      <Container className="relative z-0">
         <Hero />
         <Who />
-        <Works />
 
+        <Works />
+      <Service />
         <Products />
-       <Partners />
-       <Projects/>
+        <Partners />
+        <Projects />
         <Contact />
       </Container>
-       
     </>
   );
 }

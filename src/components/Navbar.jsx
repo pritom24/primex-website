@@ -1,6 +1,6 @@
-import React from 'react'
-import styled from 'styled-components';
-import {HiChevronDown} from 'react-icons/hi'
+import React from "react";
+import styled from "styled-components";
+import { HiChevronDown } from "react-icons/hi";
 
 const Section = styled.div`
   display: flex;
@@ -15,7 +15,12 @@ const Container = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  overflow: hidden;
+  z-index: 1;
+  top: 0;
   padding: 10px 0px;
+  
   @media only screen and (max-width: 768px) {
     width: 100%;
     padding: 10px;
@@ -59,7 +64,7 @@ const Icon = styled.img`
 const Button = styled.button`
   width: 100px;
   padding: 10px;
-  background-color: #EF4E23;
+  background-color: #ef4e23;
   color: white;
   border: none;
   border-radius: 5px;
@@ -71,12 +76,15 @@ const Navbar = () => {
     <Section>
       <Container>
         <Links>
-          <Logo src="./img/primex logo White.png" />
+        <a href="#hero"> <Logo src="./img/primex logo White.png" /></a>
+         
           <List>
-            <ListItem>Home</ListItem>
-            <ListItem>Services <HiChevronDown/></ListItem>
-            <ListItem>Works</ListItem>
-            <ListItem>Contact</ListItem>
+            <ListItem> <a href="#hero">Home</a> </ListItem>
+            <ListItem> <a href="#service">Services</a>
+               <HiChevronDown />
+            </ListItem>
+            <ListItem> <a href="#works">Works</a> </ListItem>
+            <ListItem> <a href="#contact">Contact</a> </ListItem>
           </List>
         </Links>
         <Icons>
@@ -89,4 +97,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar
+export default Navbar;

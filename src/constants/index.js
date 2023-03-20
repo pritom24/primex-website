@@ -24,6 +24,34 @@ import travel2 from "../assets/travel2.png";
 import erp from "../assets/erp.png";
 import mirror from "../assets/mirror2.png";
 
+import web from "../assets/web.png";
+import mobile from "../assets/mobile.png";
+import backend from "../assets/backend.png";
+import creator from "../assets/creator.png";
+
+export const services = [
+  {
+    title: "Web & mobile Application",
+    icon: web,
+    desc: "we design web application for business purposes",
+  },
+  {
+    title: "Business Solution",
+    icon: mobile,
+    desc: "we design web application for business purposes",
+  },
+  {
+    title: "Data & analytics",
+    icon: backend,
+    desc: "we design web application for business purposes",
+  },
+  {
+    title: "Digital Marketing & Interaction",
+    icon: creator,
+    desc: "we design web application for business purposes",
+  },
+];
+
 export const technologies = [
   {
     name: "AGRO",
@@ -188,4 +216,4 @@ export const projects = [
   },
 ];
 
-export default { technologies, projects };
+export default { technologies, projects, services };

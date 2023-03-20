@@ -44,6 +44,7 @@ const Left = styled.div`
 
 const Title = styled.h1`
   font-size: 74px;
+ 
   @media only screen and (max-width: 768px) {
     text-align: center;
   }
@@ -115,8 +116,9 @@ const Img = styled.img`
 `;
 const Hero = () => {
   return (
-    <Section>
+    <Section id="hero">
       <Navbar />
+      
       <Container>
         <Left>
           <Title>Think. Make. Solve.</Title>

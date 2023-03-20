@@ -16,7 +16,7 @@ const Cube = () => {
   );
   return (
     <mesh>
-      <boxGeometry />
+      <boxGeometry args={[1.6, 1.6, 1.6]} />
       <meshStandardMaterial>
         <RenderTexture attach="map">
           <PerspectiveCamera makeDefault position={[0, 0, 5]} />

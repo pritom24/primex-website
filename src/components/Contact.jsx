@@ -99,7 +99,7 @@ const Contact = () => {
   //     );
   // };
   return (
-    <Section>
+    <Section id="contact">
       <Container>
         <Left>
           <Form ref={ref} onSubmit={""}>

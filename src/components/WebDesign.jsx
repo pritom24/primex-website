@@ -7,7 +7,8 @@ import Mac from "./Mac";
 const Desc = styled.div`
   width: 200px;
   height: 140px;
-  padding: 20px;
+  padding: 12px;
+  text-align: center;
   background-color: white;
   border-radius: 10px;
   position: absolute;
