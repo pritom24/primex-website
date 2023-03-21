@@ -17,6 +17,9 @@ const Container = styled.div`
   scroll-behavior: smooth;
   overflow-y: auto;
   background: url("./img/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: 1400px 1080px;
+background-blend-mode: overlay;
   scrollbar-width: none;
   color: white;
   overflow-x: hidden;
@@ -25,17 +28,16 @@ const Container = styled.div`
 function App() {
   return (
     <>
-      
       <Container className="relative z-0">
         <Hero />
         <Who />
 
         <Works />
-      <Service />
+        <Service />
         {/* <Products /> */}
         <Partners />
         <Projects />
-        <Team/>
+        <Team />
         <Contact />
       </Container>
     </>

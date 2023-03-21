@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-
+import { motion } from "framer-motion";
+import { EarthCanvas } from "./canvas/Earth";
+import { slideIn } from "../utils/motion";
 import { OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import Cube from "./Cube";
@@ -78,16 +80,21 @@ const Who = () => {
   return (
     <Section>
       <Container>
-        <Left>
-          <Canvas camera={{ fov: 25, position: [5, 5, 5] }}>
+        {/* <Canvas camera={{ fov: 25, position: [5, 5, 5] }}>
             <OrbitControls enableZoom={false} autoRotate />
             <ambientLight intensity={1} />
             <directionalLight position={[3, 2, 1]} />
             <Cube />
-          </Canvas>
-        </Left>
+          </Canvas> */}
+        <motion.div
+          variants={slideIn("right", "tween", 0.2, 1)}
+          className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+        >
+          <EarthCanvas />
+        </motion.div>
+
         <Right>
-          <Title>Think outside the square space</Title>
+          <Title>Think outside the outer space</Title>
           <WhatWeDo>
             <Line src="./img/line.png" />
             <Subtitle>Who we Are</Subtitle>

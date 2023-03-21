@@ -44,7 +44,7 @@ export const testimonials = [
     testimonial:
       "Programming is not just about writing code, it's about crafting solutions that are efficient, elegant, and scalable, while constantly learning and adapting to new technologies.",
     name: "Mizanur Rahman",
-    designation: "Senior Software Engineer",
+    designation: "Senior Software Developer",
     company: "Laravel  PHP  Mysql",
     image: sse,
   },
@@ -55,6 +55,30 @@ export const testimonials = [
     designation: "Software Engineer",
     company: "Nodejs Reactjs Nextjs Mongodb",
     image: "https://randomuser.me/api/portraits/men/6.jpg",
+  },
+  {
+    testimonial:
+      "Software engineering is a journey of continuous learning and problem-solving. It's about creating solutions that make a positive impact on people's lives while embracing change and innovation",
+    name: "Ragib Ekhowan",
+    designation: "UI/UX designer",
+    company: " Css, Figma, Adobe x",
+    image: "https://randomuser.me/api/portraits/men/7.jpg",
+  },
+  {
+    testimonial:
+      "Software engineering is a journey of continuous learning and problem-solving. It's about creating solutions that make a positive impact on people's lives while embracing change and innovation",
+    name: "Dweep biswas",
+    designation: "Graphics and Content Designer",
+    company: "Figma, adobe x, illustrate",
+    image: "https://randomuser.me/api/portraits/men/4.jpg",
+  },
+  {
+    testimonial:
+      "Software engineering is a journey of continuous learning and problem-solving. It's about creating solutions that make a positive impact on people's lives while embracing change and innovation",
+    name: "Sohag Mia",
+    designation: "Senior Software Engineer",
+    company: "Java, PHP",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
 ];
 

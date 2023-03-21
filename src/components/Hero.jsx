@@ -145,7 +145,7 @@ const Hero = () => {
               />
             </Sphere>
           </Canvas>
-          <Img src="./img/teams.png" />
+          <Img src="./img/moon.png" />
         </Right>
       </Container>
     </Section>

@@ -56,7 +56,7 @@ const Map = () => {
         }}
       >
         <text x="-8" textAnchor="end" alignmentBaseline="middle" fill="white">
-          {"green road"}
+          {"Motijheel"}
         </text>
       </Annotation>
     </ComposableMap>
