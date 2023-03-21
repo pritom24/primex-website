@@ -32,7 +32,7 @@ function App() {
 
         <Works />
       <Service />
-        <Products />
+        {/* <Products /> */}
         <Partners />
         <Projects />
         <Team/>

@@ -45,11 +45,7 @@ const Partners = () => {
       variants={fadeIn("", "", 0.1, 1)}
       className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
     >
-      Following projects showcases my skills and experience through
-      real-world examples of my work. Each project is briefly described with
-      links to code repositories and live demos in it. It reflects my
-      ability to solve complex problems, work with different technologies,
-      and manage projects effectively.
+     At Primex, we are privileged to work with a diverse range of clients from various industries and backgrounds. Our clients are forward-thinking and have a vision for the future of their business, and they understand the importance of technology in achieving their goals. Our clients are resourceful, results-driven, and goal-oriented, and they collaborate closely with us to achieve success. We value the relationships we have with our clients, and we are committed to providing them with innovative and effective IT solutions that help them stay competitive in their industries.
     </motion.p>
   </div>
     <Section>

@@ -62,22 +62,22 @@ export const services = [
   {
     title: "Web & mobile Application",
     icon: web,
-    desc: "we design web application for business purposes",
+    desc: "we design web application for business purposes and mobile app development team creates innovative and user-friendly mobile applications that are compatible with all major platforms",
   },
   {
-    title: "Business Solution",
+    title: "Business Solution & IT consulting",
     icon: mobile,
-    desc: "we design web application for business purposes",
+    desc: "Buniness consulting services help businesses optimize their infrastructure and improve their business processes. We offer services including project management, and vendor management.",
   },
   {
-    title: "Data & analytics",
+    title: "Data analytics & cybersecurity",
     icon: backend,
-    desc: "we design web application for business purposes",
+    desc: "Our cybersecurity services help businesses protect their data and systems from cyber threats. We offer services, including vulnerability assessments, penetration testing.",
   },
   {
     title: "Digital Marketing & Interaction",
     icon: creator,
-    desc: "we design web application for business purposes",
+    desc: "our digital marketing services help businesses reach their target audience and increase their online presence. We offer digital marketing services, including search engine optimization ",
   },
 ];
 
@@ -120,7 +120,7 @@ export const projects = [
   {
     name: "Therapy And Medition",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Our therapy and meditation app provides services of great therapist to get mindfulness tools for daily relaxation, stress reduction, and improved mental health.",
     tags: [
       {
         name: "react",
@@ -139,9 +139,9 @@ export const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Paitent Appointment",
+    name: "Patient Appointment",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Our patient appointment app simplifies the booking process, improves communication, and streamlines scheduling for healthcare providers and patients alike.",
     tags: [
       {
         name: "react",
@@ -162,7 +162,7 @@ export const projects = [
   {
     name: "Ecommerce Manager",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Our eCommerce management dashboard application provides real-time insights and analytics to help businesses optimize their online store performance and improve sales.",
     tags: [
       {
         name: "nextjs",
@@ -204,7 +204,7 @@ export const projects = [
   {
     name: "ERP Software",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Our ERP software integrates and streamlines core business processes, providing real-time data and analytics for informed decision-making and improved business performance.",
     tags: [
       {
         name: "nextjs",
@@ -225,7 +225,7 @@ export const projects = [
   {
     name: "Ecommerce website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Our Ecommerce provides a user-friendly platform with seamless payment processing, inventory management, and shipping integration for businesses to sell online.",
     tags: [
       {
         name: "nextjs",

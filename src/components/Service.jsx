@@ -19,7 +19,7 @@ const ServiceCard = ({ index, title, icon, desc }) => (
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
+        className="bg-tertiary rounded-[20px] py-5 px-6 min-h-[280px] flex justify-evenly items-center flex-col"
       >
         <img
           src={icon}
@@ -30,7 +30,7 @@ const ServiceCard = ({ index, title, icon, desc }) => (
         <h3 className="text-white text-[20px] font-bold text-center">
           {title}
         </h3>
-        {/* <p className="text-white text-[13px] font-bold text-center">{desc}</p> */}
+        <p className="text-white text-[13px] text-center mt-4">{desc}</p>
       </div>
     </motion.div>
   </Tilt>
@@ -48,11 +48,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Primex offers a range of services to help businesses achieve their technological goals. We understand that technology plays a crucial role in the success of any business, and we strive to provide customized solutions that meet the unique needs of each of our clients.
+      Our team of experienced professionals is dedicated to delivering high-quality services that exceed our clients' expectations. 
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
