@@ -94,10 +94,12 @@ const Who = () => {
         </motion.div>
 
         <Right>
-          <Title>Think outside the outer space</Title>
+          <Title>
+            Think <del>outside</del> the outer space
+          </Title>
           <WhatWeDo>
             <Line src="./img/line.png" />
-            <Subtitle>Who we Are</Subtitle>
+            <Subtitle>Who We Are</Subtitle>
           </WhatWeDo>
           <Desc>
             a creative group of designers and developers with a passion for the

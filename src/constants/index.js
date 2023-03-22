@@ -29,8 +29,22 @@ import mobile from "../assets/mobile.png";
 import backend from "../assets/backend.png";
 import creator from "../assets/creator.png";
 
-import ceo from "../assets/ceo.jpeg"
-import sse from "../assets/sse.jpeg"
+import ceo from "../assets/ceo.jpeg";
+import sse from "../assets/sse.jpeg";
+
+import { RiNumber2 } from "react-icons/ri";
+
+export const StepData = [
+  { icon: <RiNumber2 />, stepnumber: "1", steptitle: "Requirement gathering" },
+  { icon: <RiNumber2 />, stepnumber: "2", steptitle: "Analycis" },
+  { icon: <RiNumber2 />, stepnumber: "3", steptitle: "Document" },
+  { icon: <RiNumber2 />, stepnumber: "4", steptitle: "Design" },
+  { icon: <RiNumber2 />, stepnumber: "5", steptitle: "Development" },
+  { icon: <RiNumber2 />, stepnumber: "6", steptitle: "Testing" },
+  { icon: <RiNumber2 />, stepnumber: "7", steptitle: "Fixing" },
+  { icon: <RiNumber2 />, stepnumber: "8", steptitle: "Go Live" },
+];
+
 export const testimonials = [
   {
     testimonial:
@@ -269,4 +283,4 @@ export const projects = [
   },
 ];
 
-export default { technologies, projects, services, testimonials };
+export default { technologies, projects, services, testimonials, StepData };

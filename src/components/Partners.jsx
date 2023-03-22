@@ -49,7 +49,6 @@ const Partners = () => {
     </motion.p>
   </div>
     <Section>
-      {/* <Title>Our partner</Title> */}
      
       <Partner className="flex flex-row flex-wrap justify-center gap-10">
         {technologies.map((technology) => (

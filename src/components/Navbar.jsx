@@ -83,7 +83,7 @@ const Navbar = () => {
             <ListItem> <a href="#service">Services</a>
                <HiChevronDown />
             </ListItem>
-            <ListItem> <a href="#works">Works</a> </ListItem>
+            <ListItem> <a href="#works">Products</a> </ListItem>
             <ListItem> <a href="#contact">Contact</a> </ListItem>
           </List>
         </Links>

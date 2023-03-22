@@ -9,6 +9,7 @@ import Partners from "./components/Partners";
 import Projects from "./components/Projects";
 import Service from "./components/Service";
 import Team from "./components/Team";
+import Step from "./components/Step";
 
 const Container = styled.div`
   height: 100vh;
@@ -33,6 +34,7 @@ function App() {
         <Who />
 
         <Works />
+        <Step/>
         <Service />
         {/* <Products /> */}
         <Partners />

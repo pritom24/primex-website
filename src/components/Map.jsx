@@ -36,13 +36,13 @@ const Map = () => {
         dx={-90}
         dy={-30}
         connectorProps={{
-          stroke: "white",
+          stroke: "orange",
           strokeWidth: 2,
           strokeLinecap: "round",
         }}
       >
-        <text x="-8" textAnchor="end" alignmentBaseline="middle" fill="white">
-          {"dhanmondi"}
+        <text x="-8" textAnchor="end" alignmentBaseline="middle" fill="orange">
+          {"DHANMONDI"}
         </text>
       </Annotation>
       <Annotation
@@ -50,13 +50,13 @@ const Map = () => {
         dx={-90}
         dy={-30}
         connectorProps={{
-          stroke: "white",
+          stroke: "orange",
           strokeWidth: 2,
           strokeLinecap: "round",
         }}
       >
-        <text x="-8" textAnchor="end" alignmentBaseline="middle" fill="white">
-          {"Motijheel"}
+        <text x="-8" textAnchor="end" alignmentBaseline="middle" fill="orange">
+          {"MOTIJHEEL"}
         </text>
       </Annotation>
     </ComposableMap>
