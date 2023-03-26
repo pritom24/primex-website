@@ -10,6 +10,9 @@ import Projects from "./components/Projects";
 import Service from "./components/Service";
 import Team from "./components/Team";
 import Step from "./components/Step";
+import ServicePage from "./components/ServicePage";
+
+
 
 const Container = styled.div`
   height: 100vh;
@@ -19,7 +22,7 @@ const Container = styled.div`
   overflow-y: auto;
   background: url("./img/bg.jpeg");
   background-repeat: no-repeat;
-  background-size: 1400px 1080px;
+  /* background-size: 1400px 1080px; */
 background-blend-mode: overlay;
   scrollbar-width: none;
   color: white;
@@ -29,16 +32,18 @@ background-blend-mode: overlay;
 function App() {
   return (
     <>
+    
       <Container className="relative z-0">
         <Hero />
         <Who />
-
+      
         <Works />
         <Step/>
         <Service />
         {/* <Products /> */}
         <Partners />
         <Projects />
+        <ServicePage/>
         <Team />
         <Contact />
       </Container>

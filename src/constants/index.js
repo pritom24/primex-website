@@ -36,12 +36,12 @@ import { RiNumber2 } from "react-icons/ri";
 
 export const StepData = [
   { icon: <RiNumber2 />, stepnumber: "1", steptitle: "Requirement gathering" },
-  { icon: <RiNumber2 />, stepnumber: "2", steptitle: "Analycis" },
-  { icon: <RiNumber2 />, stepnumber: "3", steptitle: "Document" },
+  { icon: <RiNumber2 />, stepnumber: "2", steptitle: "Requirement Analysis" },
+  { icon: <RiNumber2 />, stepnumber: "3", steptitle: "Strategy & Documentation" },
   { icon: <RiNumber2 />, stepnumber: "4", steptitle: "Design" },
   { icon: <RiNumber2 />, stepnumber: "5", steptitle: "Development" },
-  { icon: <RiNumber2 />, stepnumber: "6", steptitle: "Testing" },
-  { icon: <RiNumber2 />, stepnumber: "7", steptitle: "Fixing" },
+  { icon: <RiNumber2 />, stepnumber: "6", steptitle: "Testing(QA & UAT)" },
+  { icon: <RiNumber2 />, stepnumber: "7", steptitle: "Bug Fixing" },
   { icon: <RiNumber2 />, stepnumber: "8", steptitle: "Go Live" },
 ];
 

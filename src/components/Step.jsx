@@ -6,12 +6,12 @@ import Tilt from "react-tilt";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
 
-import Typed from "react-typed"
+import Typed from "react-typed";
 const Section = styled.div`
   height: 100vh;
 `;
 
-const StepCard = ({index, icon, stepnumber, steptitle }) => {
+const StepCard = ({ index, icon, stepnumber, steptitle }) => {
   return (
     <Tilt className="xs:w-[250px] w-full">
       <motion.div
@@ -51,7 +51,6 @@ const StepCard = ({index, icon, stepnumber, steptitle }) => {
             </svg>
           </a>
         </div>
-        
       </motion.div>
     </Tilt>
   );
@@ -60,23 +59,38 @@ const StepCard = ({index, icon, stepnumber, steptitle }) => {
 const Step = () => {
   return (
     <>
-     <motion.div className="ml-20 mt-20 flex"  id="service" variants={textVariant()}>
-        
+      <motion.div
+        className="ml-20 mt-20 flex"
+        id="service"
+        variants={textVariant()}
+      >
         <h2 className={styles.sectionHeadText}>THE WAY WE </h2>
-        <Typed className=" text-orange-600 font-bold md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] pl-5"
-        strings={["WORKS", "DESIGN", "DELIVER"]}
-        typeSpeed={120}
-        backSpeed={140}
-        loop/>
+        <Typed
+          className=" text-orange-600 font-bold md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] pl-5"
+          strings={["WORKS", "DESIGN", "DELIVER"]}
+          typeSpeed={120}
+          backSpeed={140}
+          loop
+        />
       </motion.div>
       <div className="ml-20 mt-20 grid grid-cols-4 gap-10">
         {StepData.map((steps, index) => (
           <>
-            <StepCard key={steps.title} index={index} {...steps}  />
-           
+            <StepCard key={steps.title} index={index} {...steps} />
           </>
         ))}
+        
       </div>
+      <motion.div className="ml-20 mt-5 flex">
+          <h2 className="text-white font-black md:text-[50px] sm:text-[40px] xs:text-[30px] text-[30px]">SUPPORT CHANNEL IS OPEN</h2>
+          <Typed
+            className="text-orange-600 font-bold md:text-[50px] sm:text-[40px] xs:text-[30px] text-[30px] pl-5"
+            strings={["24/7", "365 DAYS"]}
+            typeSpeed={120}
+            backSpeed={140}
+            loop
+          />
+        </motion.div>
     </>
   );
 };
