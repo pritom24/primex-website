@@ -19,7 +19,7 @@ import usaid from "../assets/partners/usaid.jpg";
 
 import femni2 from "../assets/femni.png";
 import sadia2 from "../assets/sadia.png";
-import helz from "../assets/helpz.png";
+import helz from "../assets/helpz4.png";
 import travel2 from "../assets/travel2.png";
 import erp from "../assets/erp.png";
 import mirror from "../assets/mirror2.png";
@@ -37,7 +37,11 @@ import { RiNumber2 } from "react-icons/ri";
 export const StepData = [
   { icon: <RiNumber2 />, stepnumber: "1", steptitle: "Requirement gathering" },
   { icon: <RiNumber2 />, stepnumber: "2", steptitle: "Requirement Analysis" },
-  { icon: <RiNumber2 />, stepnumber: "3", steptitle: "Strategy & Documentation" },
+  {
+    icon: <RiNumber2 />,
+    stepnumber: "3",
+    steptitle: "Strategy & Documentation",
+  },
   { icon: <RiNumber2 />, stepnumber: "4", steptitle: "Design" },
   { icon: <RiNumber2 />, stepnumber: "5", steptitle: "Development" },
   { icon: <RiNumber2 />, stepnumber: "6", steptitle: "Testing(QA & UAT)" },
